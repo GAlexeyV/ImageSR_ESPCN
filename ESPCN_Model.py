@@ -103,7 +103,7 @@ def PSNR(orig, reconstr):
         return 1
         
         
- #Apply model 
+#Apply model 
  
 fullimg = cv2.imread("test.png", 3)
 width = fullimg.shape[0]
